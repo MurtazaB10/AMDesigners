@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AMD Designers</title>
+</head>
+
+<body onload="func()">
+    <div id="main">
+        <div class="center">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="container">
+        <section class="header" id="head">
+            <nav>
+                <a href="index.html"><img src="img/logo1.svg" alt=""></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#head">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#about">About US</a></li>
+                        <li><a href="#contact">Contact US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="tb">
+                <div class="text-box">
+                    <h1>AMD Designers</h1>
+                    <p>We use our creative and software engineering/programming skills to design, build and improve
+                        websites. We<br> understand user experience and are able to build websites that are easy to
+                        understand, navigate,<br> and use, and adhere to design standards and specifications.</p>
+                    <a href="#about" class="hero-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a onclick="hideMenu()" href="#head">Home</a></li><br>
+                    <li><a onclick="hideMenu()" href="#service">Services</a></li><br>
+                    <li><a onclick="hideMenu()" href="#project">Projects</a></li><br>
+                    <li><a onclick="hideMenu()" href="#about">About US</a></li><br>
+                    <li><a onclick="hideMenu()" href="#contact">Contact US</a></li>
+                </ul>
+                <div class="ip">
+                    <div class="icons">
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100069091613149"><i
+                                class="fab fa-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/AMDesigners2"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/amdesigners512/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/a-m-designers-56135b214/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p><i class="far fa-copyright"></i> Made With <i class="far fa-heart"></i> by AMD Designers</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <section class="services" id="service">
+            <h1>Our Services</h1>
+            <div class="row">
+                <div class="ser-col">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Designing</h3>
+                    <p>We build SEO friendly, mobile responsive websites precisely tailored to your requirement. We
+                        provide all round services in designing, developing and maintaining an effective web presence
+                        for your business.</p>
+                </div>
+                <div class="ser-col">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>We know we develop creative websites that are aesthetically pleasing and uniquely interactive.
+                        However we want your website to be more than that – to talk to your customers the way you want
+                        that to.</p>
+                </div>
+                <div class="ser-col">
+                    <i class="fas fa-palette"></i>
+                    <h3>Logo Designing</h3>
+                    <p>Businesses use minimalist having contemporary designs which instill a sense of elegance and
+                        simple appeal. These logos can create huge impacts on the minds of potential targets and improve
+                        brand recall.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+
+        <section class="projects" id="project">
+            <h1>Our Projects</h1>
+            <div class="row">
+                <div class="pro-col">
+                    <a href="https://abizers10.github.io/EduFord/" target="_blank"><img src="img/2021-06-03 (4).png">
+                        <div class="caption">
+                            <h1>University Website Design</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="pro-col">
+                    <a href="https://amdesigners.github.io/PortfolioDesign/" target="_blank"><img
+                            src="img/project2.png">
+                        <div class="caption">
+                            <h1>Portfolio Design</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="https://github.com/AMDesigners" target="_blank" class="hero-btn btn">Explore Now</a>
+        </section>
+
+        <!-- About US -->
+
+        <section class="about-us" id="about">
+            <h1>About US</h1>
+            <div class="row">
+                <div class="about-col">
+                    <div class="col-1">
+                        <img src="img/abizer.jpeg" alt="abizer">
+                        <h3>Abizer Susnerwala</h3>
+                        <p>Frontend Developer</p>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/abizer.susnerwala.1/" target="_blank"><i
+                                    style="color: #4267B2;" class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/abizers_10/" target="_blank"><i
+                                    style="color: rgb(219, 101, 120);" class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/abizer-susnerwala-5017391a9/" target="_blank"><i
+                                    style="color: #0077b5" class="fab fa-linkedin"></i></a>
+                        </div>
+                        <button class="hero-btn">Portfolio</button>
+                    </div>
+                </div>
+                <div class="about-col">
+                    <div class="col-1">
+                        <img src="img/murtaza.jpg" alt="murtaza">
+                        <h3>Murtaza Barwahwala</h3>
+                        <p>Frontend Developer</p>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/murtaza.barwahwala.5" target="_blank"><i
+                                    style="color: #4267B2;" class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/murtaza_barwah_00/" target="_blank"><i
+                                    style="color: rgb(219, 101, 120);" class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/murtaza-barwahwala-b479321aa/" target="_blank"><i
+                                    style="color: #0077b5" class="fab fa-linkedin"></i></a>
+                        </div>
+                        <button class="hero-btn">Portfolio</button>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Skills</h3>
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us -->
+
+        <section class="contact-us" id="contact">
+            <h1>Let's Get In Touch</h1>
+            <div class="row">
+                <div class="contact-col details">
+                    <div>
+                        <i class="fas fa-home"></i>
+                        <span>
+                            <h5>KD Gate, </h5>
+                            <p>Ujjain , Madhya Pradesh , 456006</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                        <span>
+                            <h5>+91 9669988016, +91 7000183292</h5>
+                            <p>Monday to Saturday, 10AM to 8PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <span>
+                            <h5>amdesigners52 <span>@gmail.com</span></h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="https://formspree.io/f/mjvjryyb" method="POST">
+                        <div class="ne">
+                            <input name="name" id="name" type="text" placeholder="Enter Your Name" required>
+                            <input name="email" id="email" type="email" placeholder="Enter Your email address" required>
+                        </div>
+                        <input name="subject" id="subject" type="text" placeholder="Enter Your Subject" required>
+                        <textarea name="message" id="message" rows="3" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------footer----------------- -->
+        <footer>
+            <h4>Thank You For Visiting Us.</h4>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100069091613149" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/AMDesigners2/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/amdesigners512/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/a-m-designers-56135b214/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p>Made with <i class="far fa-heart"></i> by AMD Designers</p>
+        </footer>
+    </div>
+    <!-- ----------------jsCode--------------- -->
+    <script>
+        let navbar = document.querySelector("nav");
+        window.addEventListener("scroll", (event) => {
+            if (this.scrollY > 20) {
+                navbar.classList.add("stick");
+            }
+            else {
+                navbar.classList.remove("stick");
+            }
+        })
+
+        let pl = document.getElementById("main");
+        let sec = document.querySelector(".container");
+        function func() {
+            pl.style.display = 'none';
+            sec.style.display = "block";
+        }
+        let nl = document.getElementById("navLinks");
+        function hideMenu() {
+            nl.style.height = "0";
+        }
+        function showMenu() {
+            nl.style.height = "100vh";
+        }
+    </script>
+</body>
+
+</html>
